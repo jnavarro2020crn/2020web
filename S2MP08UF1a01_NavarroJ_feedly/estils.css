@@ -1,3 +1,4 @@
+
 body {
   background-color: skyblue
   margin: 0;
@@ -7,17 +8,22 @@ body {
 div{
   background-color: red;
   height: 50px;
-
+  background-repeat: no-repeat;
+  background-position: 400px;
 }
 
 h1, p {
   width: 350px;
   padding: 25px;
-  background-color: pink;
+}
+
+h1 {
+  margin:0px;
 }
 
 p{
-  padding: 25px;
+  padding: 0 25px;
+  margin: 0;
 }
 
 #primera {
@@ -26,26 +32,32 @@ p{
 
 #segona {
   height: 550px;
+  background-image:url(img/img-hero-full-list.png);
 }
 
 #tercera {
   height: 641px;
+  background-image: url(img/allinone.jpg);
 }
 
 #quarta {
   height: 500px;
+  background-image: url(img/curator-short.png);
 }
 
 #cinquena {
   height: 550px;
+  background-image:url(img/img-hero-full-list.png);
 }
 
 #sisena {
   height: 550px;
+  background-image:url(img/mobile-share.png);
 }
 
 #setena {
   height: 643px;
+  background-image:url(img/anywhere.png);
 }
 
 #vuitena {
