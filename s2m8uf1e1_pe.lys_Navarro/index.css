@@ -1,0 +1,70 @@
+
+html{
+background-color: #222;
+font-family: Helvetica;
+}
+
+.Barra{
+  heigt:50px;
+  background-color: black;
+  width:100%;
+  text-decoration:none;
+
+}
+
+div{
+  float: left;
+  margin: 13px;
+}
+h1{
+  color:#ccc;
+  font-size: 14px;
+}
+h2,h3{
+  color:#ccc;
+  font-size:11px;
+}
+
+h5{
+  color:#FFF;
+  font-size:22px;
+}
+
+a{
+text-decoration: none;
+color: Black;
+}
+
+
+li{
+margin: 0px;
+display: inline-block;
+color: #FFF;
+}
+
+.visto{
+filter: grayscale(100%);
+}
+}
+.barra {
+height:50px;
+background-color: 50% #222;
+}
+
+#primera{
+  margin-left: 8px;
+}
+
+#segona{
+display:inline-block;
+}
+
+#tercera{
+  display:inline-block;
+}
+
+#quarta{
+  display:inline-block;
+}
+li:hover{
+background-color: #FFF;

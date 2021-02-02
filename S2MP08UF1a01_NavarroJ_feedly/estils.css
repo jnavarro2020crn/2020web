@@ -1,81 +1,240 @@
+/*
+De rems a pixels:
+1rem =16px;
+0.5rem=8px;
+0.4rem=6.4px;
+0.3rem=4.8px;
+0.2rem=3.2;
+0.1rem=1.6px;
 
-body {
-  background-color: skyblue
-  margin: 0;
-  font-family: Arial;
+De pixels a rems:
+16px=1rem (1/16x17)
+17px= 1.0625rem;
+*/
+
+html {
+  font-size: 16px;
+}
+
+body{
+  background-color:skyblue;
+  margin:0;
+  font-family: Verdana;
 }
 
 div{
   background-color: red;
-  height: 50px;
+  height: 3.125rem;
   background-repeat: no-repeat;
-  background-position: 400px;
+  background-position: 25rem;
 }
 
-h1, p {
-  width: 350px;
-  padding: 25px;
+li{
+  display:inline-block;
+  background-color: green;
+  height: 1.875rem;
+  margin: 0px;
+  line-height: 2.19rem;
+  padding: 0.3125rem;
 }
 
-h1 {
-  margin:0px;
+h1, p{
+  width: 21.875rem;
+  padding:1.5625rem;
+  margin: 0;
+  background-color:;
+}
+
+li:hover{
+  background-color: yellowgreen;
+}
+h1{
+  margin: 0;
+  font-size: 2.3rem;
 }
 
 p{
-  padding: 0 25px;
-  margin: 0;
+  padding: 0 1.5625rem;
+  background-color:;
+  margin:0;
+}
+ a{
+   text-decoration: none;
+   color: Black;
+ }
+
+#primera{
+  height:2.5rem;
 }
 
-#primera {
-  height: 40px;
+#segona{
+  height: 34.375rem;
+  background-image: url("img/img-hero-full-list.png");
 }
 
-#segona {
-  height: 550px;
-  background-image:url(img/img-hero-full-list.png);
-}
-
-#tercera {
-  height: 641px;
+#tercera{
+  height: 40.0625rem;
   background-image: url(img/allinone.jpg);
 }
 
-#quarta {
-  height: 500px;
+#quarta{
+  height: 31.25rem;
   background-image: url(img/curator-short.png);
+  color: white;
+
 }
 
-#cinquena {
-  height: 550px;
-  background-image:url(img/img-hero-full-list.png);
+#cinquena{
+  height: 34.375rem;
+  background-image: url("img/img-hero-full-list.png");
+
 }
 
-#sisena {
-  height: 550px;
-  background-image:url(img/mobile-share.png);
+#sisena{
+  height: 34.375rem;
+  background-image: url("img/mobile-share.png");
 }
 
-#setena {
-  height: 643px;
-  background-image:url(img/anywhere.png);
+#setena{
+  height: 40.1875rem;
+  background-image: url("img/anywhere.png");
 }
 
-#vuitena {
-  height: 200px;
+#vuitena{
+  height: 12.5rem;
+  text-align: center;
 }
 
-.blanca {
+#boto {
+
+  /*DIMENSIONS DE L'OBJECTE*/
+  height: 5rem;
+  width: 5rem;
+
+  /*POSICIONAMIENT DE L'OBJETE*/
+  position:fixed;
+  bottom: 3.125rem;
+  right: 6.25rem;
+
+  /*TEXT*/
+  text-align: center;
+  line-height: 5.625rem;
+  font-size: 3.875rem;
+  color: white;
+
+  /*CAIXA*/
+  border: solid 2px black;
+  border-radius: 2.1875rem;
+  box-shadow: 0.125rem 0.125rem 0.3125rem black;
+  background-image: url("img/sources.png");
+  background-position: -13.75rem -0.375rem;
+  opacity:0.9;
+}
+
+img{
+  padding:1.5625rem;
+}
+
+.blanca{
   background-color: #FFF;
 }
 
-.verda {
+.verda{
   background-color: #6C3;
+
 }
 
-.fosca {
+.fosca{
   background-color: #333;
+
 }
 
-.clara {
-  background-color: #EEECEE;
+.clara{
+background-color: #EEECEE;
+}
+
+
+}g
+h1, p{
+  width: 21.875rem;
+  padding:1.5625rem;
+  margin: 0;
+}
+
+
+/*-- Disseny per mobil*/
+
+  @media screen and (max-width:960px){
+    div{
+      background-image:none;
+    }
+
+    li{
+      display:block;
+      background-color: green;
+      height: 1.875rem;
+      margin:0 0 0 -2.5rem;
+      line-height: 2.19rem;
+      padding: 0.3125rem;
+    }
+    #primera{
+      height:17.5rem;
+    }
+}
+
+/*--Disseny per imprimir*/
+
+@media print{
+  body{
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    margin-top: 40mm;
+    margin-left: 20mm;
+  }
+
+  div{
+    width: 95mm;
+    display: inline-block;
+    float:left;
+  }
+  h1{
+    font-size: 16pt;
+    margin:0;
+  }
+  #primera{
+    display: none; /*mostrar nada*/
+    }
+
+    #segona{
+      height: 80mm;
+    }
+
+    #tercera{
+        height: 80mm;
+    }
+
+    #quarta{
+        height: 80mm;
+    }
+
+    #cinquena{
+        height: 80mm;
+    }
+
+    #sisena{
+        height: 80mm;
+    }
+
+    #setena{
+        height: 80mm;
+    }
+
+  #vuitena{
+    display: none;
+  }
+
+  .blanca{
+    background-color: yellow;
+  }
 }
