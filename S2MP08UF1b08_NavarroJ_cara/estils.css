@@ -1,0 +1,319 @@
+.cap{
+  width: 442px;
+  height: 610px;
+  background-color: #EEC68B;
+  border-radius:50% 50% 80% 80%;
+  position: relative;
+  top: 70px;
+}
+
+.pomulo1{
+  width: 400px;
+  height: 300px;
+  border-radius: 60% 20% 50% 60%;
+  background-color: red;
+  transform: rotate(90deg);
+   background-color: white;
+  position: absolute;
+  left: 320px;
+  top: 390px;
+}
+
+.pomulo2{
+  width: 400px;
+  height: 300px;
+  border-radius: 60% 50% 20% 60%;
+  background-color: red;
+  transform: rotate(90deg);
+  background-color: white;
+  position: absolute;
+  left: -280px;
+  top: 400px;
+}
+
+.cabell{
+  height: 140px;
+  width: 440px;
+  background-color: #5A2F06;
+  border-radius:50rem 50rem 2rem 2rem;
+}
+.pel1{
+  width: 60px;
+  height: 50px;
+  transform: rotate(50deg);
+  background-color:#5A2F06;
+  position: absolute;
+  top: -10px;
+  left: 170px;
+}
+
+.pel2{
+  width: 60px;
+  height: 50px;
+  transform: rotate(50deg);
+  background-color:#5A2F06;
+  position: absolute;
+  top: -20px;
+  left: 140px;
+}
+
+.pel3{
+  width: 60px;
+  height: 50px;
+  transform: rotate(50deg);
+  background-color:#5A2F06;
+  position: absolute;
+  top: -30px;
+  left: 110px;
+}
+.pel4{
+  width: 60px;
+  height: 50px;
+  transform: rotate(50deg);
+  background-color:#5A2F06;
+  position: absolute;
+  top: -20px;
+  left: 80px;
+}
+.pel5{
+  width: 60px;
+  height: 50px;
+  transform: rotate(15deg);
+  background-color:#5A2F06;
+  position: absolute;
+  top: -4px;
+  left: 50px;
+}
+
+.pel6{
+  width: 30px;
+  height: 150px;
+  background-color:#5A2F06;
+  position: relative;
+  top: 110px;
+  left: -2px;
+  border-radius:50% 0 50% 0;
+}
+
+.pel7{
+  width: 30px;
+  height: 150px;
+  background-color:#5A2F06;
+  position: relative;
+  top: -40px;
+  left: 415px;
+  border-radius:0% 50% 0% 50%;
+}
+
+.cella1{
+  width:120px;
+	height:15px;
+  background:black;
+  border-radius:50px 0 50px 0 ;
+  top:40px;
+  left:260px;
+  position: relative;
+}
+.cella1::after{
+  content:"";
+  width: 110px;
+  height: 20px;
+  display: block;
+  background: #EEC68B;
+  position: relative;
+  border-radius: 100% 100% 100% 100%;
+  top: -10px;
+  left: 5px;
+}
+
+.cella1::before{
+  content:"";
+  width: 110px;
+  height: 20px;
+  display: block;
+  background: black;
+  position: relative;
+  border-radius: 100% 100% 100% 100%;
+  top: -7px;
+  left: 10px;
+}
+
+.cella2{
+  width:120px;
+	height:15px;
+  background:black;
+  border-radius:50px 0 50px 0 ;
+  top:25px;
+  left:70px;
+  position: relative;
+}
+
+.cella2::after{
+  content:"";
+  width: 110px;
+  height: 20px;
+  display: block;
+  background: #EEC68B;
+  position: relative;
+  border-radius: 100% 100% 100% 100%;
+  top: -10px;
+  left: 6px;
+}
+
+.cella2::before{
+  content:"";
+  width: 110px;
+  height: 20px;
+  display: block;
+  background: black;
+  position: relative;
+  border-radius: 100% 100% 100% 100%;
+  top: -7px;
+  left: 10px;
+}
+
+.ulls {
+	position: absolute;
+	left:100px;
+	top:200px;
+
+}
+
+.ull_1 {
+	background:#fff;
+	position: absolute;
+	border:2px solid #000;
+	width:70px;
+	height:70px;
+  transform:rotate(48deg);
+	margin-right:-17px;
+	border-radius:50px 0 50px 0 ;
+	display: inline-block;
+  box-shadow: 1px 1px black, -0em 0 0.4em black;
+}
+
+.ull_2 {
+	background:#fff;
+	position: absolute;
+  left: 180px;
+	border:2px solid #000;
+	width:70px;
+	height:70px;
+  transform:rotate(42deg);
+	margin-right:-17px;
+	border-radius:50px 0 50px 0 ;
+	display: inline-block;
+  box-shadow: 1px 1px black, -0em 0 0.4em black;
+}
+
+.ull_extern {
+	width: 35px;
+	height:35px;
+	border-radius:50%;
+	position:relative;
+	top:14px;
+	left:15px;
+	background:#10782F;
+	border:3px solid #000;
+}
+
+.ull_intern {
+	width:20px;
+	height:20px;
+	background:#000;
+	border-radius:50%;
+	position:relative;
+	top:8px;
+	left:8px;
+}
+
+.nas{
+  width:80px;
+	height:90px;
+  background-color:EFAD67;
+  position: absolute;
+  border-radius:60% 60% 20px 20px;
+  top: 380px;
+  left:190px;
+}
+.forat1{
+ width:20px;
+	height:20px;
+  background-color: #474545;
+  position: absolute;
+  border-radius:60% 60% 30% 30%;
+  top: 70px;
+  left:45px;
+  opacity: 50%;
+}
+.forat2{
+  width:20px;
+	height:20px;
+  background-color: #474545;
+  position: absolute;
+  border-radius:60% 60% 30% 30%;
+  top: 70px;
+  left:15px;
+  opacity: 50%;
+}
+
+.boca1{
+ width:60px;
+	height:60px;
+  background-color: tomato;
+  border-radius:50% 0 50% 0;
+  transform:rotate(45deg);
+  position: relative;
+  top: -80px;
+  left:175px;
+}
+.boca2{
+  width:60px;
+	height:60px;
+  background-color: tomato;
+  border-radius:50% 0 50% 0;
+  position: relative;
+  top: -20px;
+  left:20px;
+}
+.boca3{
+  width:70px;
+	height:70px;
+  background-color: tomato;
+  border-radius:50% 0 50% 0;
+  position: relative;
+  top: 10px;
+  left:-10px;
+}
+
+.boca4{
+  width:5px;
+	height:80px;
+  background-color: red;
+  border-radius: 1px 10px 10px 1px;
+  position: relative;
+  transform:rotate(45deg);
+  top: -7px;
+  left:30px;
+}
+
+.camiseta{
+  height:300px;
+  width:600px;
+  background-color: grey;
+  position: absolute;
+  top: 740px;
+  z-index: 50;
+  left: -80px;
+   border-radius:50% 50% 0 0;
+}
+.coll{
+  height:210px;
+  width:250px;
+  background-color: #DEB77D;
+  border-radius:0 50% 50% 0;
+  transform:rotate(90deg);
+  position: absolute;
+  top: 640px;
+  left: 100px;
+}
