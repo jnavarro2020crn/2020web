@@ -1,0 +1,160 @@
+body{
+  margin:0;
+  padding:0;
+  background: url(img/fons.jpg);
+  font-family: helvetica, Arial, sans-serif;
+}
+
+span{
+  color:grey;
+}
+h1{
+  font-family: helvetica;
+  position: relative;
+  font-size: 4em;
+  text-align: center;
+}
+
+
+
+.cap{
+  width: 960px;
+  height: 589px;
+  margin: 0 auto;
+}
+
+.cos{
+  width: 960px;
+  height: 780px;
+  margin: 0 auto;
+}
+
+.peu{
+  width: 960px;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.penicula{
+  width: 300px;
+  height: 240px;
+  margin: 10px;
+  background-color: white;
+  background-size:300px 220px;
+  float: left;
+  transform-origin:left;
+  opacity: 0.5;
+  transition: 1s;
+}
+
+#pulp_fiction{
+  width: 300px;
+  height: 240px;
+  background-image:url(img/small/small_pulp.jpg);
+  background-repeat: no-repeat;
+}
+#taxi_driver{
+  width: 300px;
+  height: 240px;
+  background-image:url(img/small/small_taxi.jpg);
+  background-repeat: no-repeat;
+}
+#goldfinger{
+  width: 300px;
+  height: 240px;
+  background-image:url(img/small/small_bond.jpg);
+  background-repeat: no-repeat;
+}
+#ghost_busters{
+  width: 300px;
+  height: 240px;
+  background-image:url(img/small/small_ghost.jpg);
+  background-repeat: no-repeat;
+}
+#mr_bean{
+  width: 300px;
+  height: 240px;
+  background-image:url(img/small/small_bean.jpg);
+  background-repeat: no-repeat;
+}
+#back_to{
+  width: 300px;
+  height: 240px;
+  background-image:url(img/small/small_back.jpg);
+  background-repeat: no-repeat;
+}
+#knight{
+  width: 300px;
+  height: 240px;
+  background-image:url(img/small/small_rider.jpg);
+  background-repeat: no-repeat;
+}
+#the{
+  width: 300px;
+  height: 240px;
+  background-image:url(img/small/small_team.jpg);
+  background-repeat: no-repeat;
+}
+#breaking{
+  width: 300px;
+  height: 240px;
+  background-image:url(img/small/small_break.jpg);
+  background-repeat: no-repeat;
+}
+
+
+.penicula:hover{
+  opacity:1;
+  transform: rotateY(25deg);
+}
+
+.penicula h2{
+  background-color: white;
+  height: px;
+  font-size: 1em;
+  position: relative;
+  top: 200px;
+  line-height: 40px;
+  text-indent: 10px;
+}
+
+.animacio{
+  height: 589px;
+  width: 960px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: auto;
+  animation: carrussel 15s infinite;
+  transition: 1s;
+}
+
+@keyframes carrussel {
+  0%{
+    background-image: url(img/ani/back.png);
+  }
+  11.1%{
+    background-image: url(img/ani/bean.png);
+  }
+  22.2%{
+    background-image: url(img/ani/bond.png);
+  }
+  33.3%{
+    background-image: url(img/ani/break.png);
+  }
+  44.4%{
+    background-image: url(img/ani/ghost.png);
+  }
+  55.5%{
+    background-image: url(img/ani/pulp.png);
+  }
+  66.6%{
+    background-image: url(img/ani/rider.png);
+  }
+  77.7%{
+    background-image: url(img/ani/taxi.png);
+  }
+  88.8%{
+    background-image: url(img/ani/team.png);
+  }
+}
